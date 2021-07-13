@@ -307,14 +307,11 @@ button.main {
 
 .w_souls{
   display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   justify-content: flex-start;
   grid-template-rows:  auto;
   gap: 2rem;
-  /* margin: 0 8.2% 0 8.2%;
-  max-width: 1200px; */
   margin: 0 auto;
-  max-width: 1200px;
   padding: 0 8.2%;
 }
 
