@@ -642,6 +642,7 @@ button.main {
 
       .w_souls{
         margin: 0 5.5% 0 5.5%;
+        max-width: 1200px;
       }
 
       .w_charts{
