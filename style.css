@@ -261,6 +261,7 @@ button.main {
   margin-bottom: 36px;
   font-family: Proxima Nova Lt;
   font-weight: 300;
+  font-display: swap;
 }
 
 .authenticity .column1, .authenticity .column2, .authenticity .column3{
@@ -540,7 +541,9 @@ button.main {
 }
 
 .footer_column1 p, .footer_column2 p{
-  font-family: Proxima Nova lt, sans-serif;
+  font-family: Proxima Nova Lt, sans-serif;
+  font-weight: 300;
+  font-display: swap;
 }
 
 .form-group {
