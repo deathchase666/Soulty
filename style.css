@@ -561,6 +561,7 @@ button.main {
      padding: 14px 0 14px 12px;
      font-family: Proxima Nova rg, sans-serif;
      font-weight: 400;
+     vertical-align: top;
 }
 
 .span_button{
