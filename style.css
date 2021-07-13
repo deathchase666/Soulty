@@ -592,7 +592,7 @@ button.main {
 @media (min-width: 320px) and (max-width: 660px){
 
         h2 {
-          padding-top: 60px;
+          padding-top: 0;
 
         }
 
