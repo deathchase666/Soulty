@@ -1,0 +1,671 @@
+@font-face {
+    font-family: 'NewYork';
+    src: url('fonts/newyork.eot');
+    src: url('fonts/newyork.eot?#iefix') format('embedded-opentype'),
+        url('fonts/newyork.woff2') format('woff2'),
+        url('fonts/newyork.woff') format('woff'),
+        url('fonts/newyork.ttf') format('truetype'),
+        url('fonts/newyork.svg#NewYork') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('fonts/proximanova_bold.eot');
+    src: url('fonts/proximanova_bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/proximanova_bold.woff2') format('woff2'),
+        url('fonts/proximanova_bold.woff') format('woff'),
+        url('fonts/proximanova_bold.ttf') format('truetype'),
+        url('fonts/proximanova_bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('fonts/proximanova_regular.eot');
+    src: url('fonts/proximanova_regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/proximanova_regular.woff2') format('woff2'),
+        url('fonts/proximanova_regular.woff') format('woff'),
+        url('fonts/proximanova_regular.ttf') format('truetype'),
+        url('fonts/proximanova_regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('fonts/proximanova_semibold.eot');
+    src: url('fonts/proximanova_semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/proximanova_semibold.woff2') format('woff2'),
+        url('fonts/proximanova_semibold.woff') format('woff'),
+        url('fonts/proximanova_semibold.ttf') format('truetype'),
+        url('fonts/proximanova_semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('ProximaNova-Light.eot');
+    src: url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Light.woff2') format('woff2'),
+        url('ProximaNova-Light.woff') format('woff'),
+        url('ProximaNova-Light.ttf') format('truetype'),
+        url('ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+  background-color: #FCFCFC;
+  margin: 0;
+}
+
+h1 {
+  font-family: NewYork, serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+h2 {
+  font-family: NewYork, serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 82px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 84px;
+  padding-bottom: 36px;
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+h3 {
+  font-family: Proxima Nova Lt, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #212121;
+  margin: 0;
+  padding-bottom: 12px;
+  font-display: swap;
+}
+
+p {
+  font-family: Proxima Nova Rg, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #212121;
+  margin: 0;
+  letter-spacing: 0.008em;
+  text-decoration: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+button.main {
+  position: relative;
+  display: inline-block;
+  border: none;
+  background-color: #2E7BED;
+  color: #FCFCFC;
+  width: 20.25%;
+  height: 48px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 0px;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 39.9%;
+  margin-top: 60px;
+  margin-bottom: 84px;
+  line-height: 1.3em;
+  font-family: Proxima Nova lt, sans-serif;
+}
+
+.topnav {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  background-color: #FCFCFC;
+  font-family: Proxima Nova Rg, sans-serif;
+  font-weight: 400;
+}
+
+.topnavlogo{
+  display: inline-block;
+  float: left;
+  width: 112px;
+  height: 36px;
+  padding-left: 36px;
+  padding-top: 14px;
+}
+
+.topnav a {
+  display: inline-block;
+  float: right;
+  color: #212121;
+  text-align: left;
+  padding: 30px 36px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.topnav a:hover {
+  color: #3483FA;
+}
+
+.topnav a.active {
+  color: #3483FA;
+}
+
+.img {
+  display: inline-block;
+  width: 35.5%;
+  height: 700px;
+  object-fit:  cover;
+  object-position: left top;
+}
+
+.authenticity img{
+  display: inline-block;
+  position: relative;
+  object-fit:  cover;
+  object-position: left top;
+}
+
+.actionarea{
+  display: inline-block;
+  width: 42%;
+  padding-left: 4.3%;
+  padding-top: 120px;
+  position: absolute;
+}
+
+.actionarea button.main {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  width: 44%;
+  margin: 0;
+}
+
+.actionarea button.secondary {
+  position: absolute;
+  background-color: transparent;
+  color: #212121;
+  width: 112px;
+  height: 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  margin-left: 52%;
+  margin-top: 13px;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px #212121 solid;
+}
+
+.description h3, .description p, .footer h3 {
+  width: 56%;
+  padding-left: 22%;
+  text-align: center;
+
+}
+
+.authenticity, .footer{
+  width: 100%;
+  background-color: #212121;
+}
+
+.authenticity h2, .authenticity p, .authenticity h3, .footer h3, .footer p {
+  color: #FCFCFC;
+}
+
+.authenticity h3 {
+  font-family: Proxima Nova Rg;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.authenticity p {
+  margin-bottom: 36px;
+  font-family: Proxima Nova Lt;
+  font-weight: 300;
+}
+
+.authenticity .column1, .authenticity .column2, .authenticity .column3{
+  margin-bottom: 84px;
+  justify-content: space-between;
+}
+
+.w_columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.column1 {
+  overflow: hidden;
+  width: 26%;
+  margin-left: 8.2%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.column2 {
+  overflow: hidden;
+  width: 26%;
+  padding-left: 2.8%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.column3 {
+  overflow: hidden;
+  width: 26%;
+  padding-left: 2.8%;
+  margin-right: 8.2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.how h3 {
+  margin-top:36px;
+}
+
+.w_souls{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  justify-content: flex-start;
+  grid-template-rows:  auto;
+  gap: 2rem;
+  margin: 0 8.2% 0 8.2%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  padding: 16px;
+  background-color: #FCFCFC;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.11);
+  overflow: visible;
+}
+
+.toppart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.w_ava_content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.w_topcontent p, .second_info p, .descr_card p{
+  padding: 2px 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #9B9B9B;
+}
+
+.w_topcontent p:first-child{
+  margin-bottom: 3px;
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.avatar {
+  height: 62px;
+  width: 62px;
+  padding-right: 10px;
+}
+
+.privateP{
+  border: solid 1px #2E7BED;
+  padding: 0;
+  margin-top: 4px;
+}
+
+.privateP p{
+  font-family: Proxima Nova Lt;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 0 3px;
+  color: #2E7BED;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ededed;
+  margin: 12px 0;
+}
+
+.second_info, .main_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.main_info p{
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.action_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.w_buttons button {
+  height: 24px;
+  width: 92px;
+  font-size: 12px;
+  /* letter-spacing: 0.1em; */
+}
+
+.main_button {
+  border: none;
+  background-color: #2E7BED;
+  color: #FCFCFC;
+  font-family: Proxima Nova Lt;
+  font-weight: 300;
+
+}
+
+.second_button {
+  border: solid 1px;
+  border-color: #2E7BED;
+  background-color: #FCFCFC;
+  color: #2E7BED;
+  font-family: Proxima Nova Lt;
+  font-weight: 300;
+}
+
+.souls button.main, .offers button.main {
+  border: solid 1px;
+  background-color: #FCFCFC;
+  color: #2E7BED;
+}
+
+
+.w_charts{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-rows:  auto;
+  gap: 2rem;
+  margin: 0 8.2%;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  min-width: 216px;
+  padding: 16px;
+  background-color: #FCFCFC;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.11);
+  overflow: visible;
+}
+
+.w_chart_label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: solid 1px #212121;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.w_chart_label p:last-of-type{
+  color: #B9b9b9;
+}
+
+.w_chart_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar_name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer_divider{
+  background-color: #fcfcfc;
+  margin: 36px 8.2%;
+  height: 1px;
+}
+
+.footer {
+  height: 468px;
+}
+
+.footer h3 {
+  padding-top: 84px;
+  font-family: Proxima Nova Rg;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.W_footer_bottom {
+  margin-left: 8.2%;
+  margin-right: 8.2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.w_footer_columns{
+
+  display: flex;
+  justify-content: flex-end;
+  width: 60%
+}
+
+.footer_logo {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  padding-right: 12px;
+}
+
+.footer_column1 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer_column2 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 36px;
+}
+
+.footer_column1 h3, .footer_column2 h3 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: Proxima Nova Rg;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.footer_column1 p, .footer_column2 p{
+  font-family: Proxima Nova lt, sans-serif;
+}
+
+.form-group {
+  margin-left: 30%;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  width: 40%;
+  min-width: 216px;
+}
+
+ .form-field{
+     position: relative;
+     display: inline-block;
+     width: 60%;
+     height: 20px;
+     border: none;
+     margin: 0;
+     background: #fff;
+     padding: 14px 0 14px 12px;
+     font-family: Proxima Nova rg, sans-serif;
+     font-weight: 400;
+}
+
+.span_button{
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 39.6%;
+  background-color: #2E7BED;
+  color: #fcfcfc;
+  font-family: Proxima Nova lt, sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 21px;
+  cursor: pointer;
+  margin-left: -16px;
+  padding: 14px 0;
+  text-align: center;
+  border: none;
+
+
+}
+
+@media (min-width: 320px) and (max-width: 660px){
+
+        button.main {
+          width: 89%;
+          height: 48px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 11px;
+          cursor: pointer;
+          text-transform: uppercase;
+          margin-left: 5.5%;
+          margin-top: 36px;
+          margin-bottom: 60px;
+        }
+
+        .w_columns {
+          display: flex;
+          flex-direction: column;
+          width: 89%;
+          margin-left: 5.5%;
+          margin-right: 5.5%;
+          padding-bottom: 36px;
+      }
+
+      .authenticity .column1, .authenticity .column2,.authenticity .column3{
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 36px;
+      }
+      .authenticity p {
+        margin-bottom: 12px;
+      }
+
+      .how .column1, .how .column2, .how .column3{
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 100px 3fr;
+        vertical-align: top;
+        padding-left: 0;
+
+      }
+
+      .how .column2, .how .column3{
+        padding-top: 36px;
+      }
+
+
+      .how h3 {
+        margin-top:12px;
+      }
+
+      .w_souls{
+        margin: 0 5.5% 0 5.5%;
+      }
+
+      .w_charts{
+        margin: 0 5.5%;
+      }
+
+      .form-group {
+        margin-left: 25%;
+        width: 50%;
+        min-width: 216px;
+      }
+
+      .W_footer_bottom {
+          margin-left: 5.5%;
+          margin-right: 5.5%;
+        }
+
+        .footer_divider{
+          margin: 24px 5.5%;
+        }
+
+        .description h3, .description p {
+          width: 89%;
+          padding-left: 5.5%;
+          text-align: left;
+        }
+
+}
