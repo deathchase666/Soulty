@@ -311,6 +311,7 @@ button.main {
   grid-template-rows:  auto;
   gap: 2rem;
   margin: 0 8.2% 0 8.2%;
+  max-width: 1200px;
 }
 
 .card {
@@ -405,7 +406,6 @@ button.main {
   height: 24px;
   width: 92px;
   font-size: 12px;
-  /* letter-spacing: 0.1em; */
 }
 
 .main_button {
@@ -642,7 +642,6 @@ button.main {
 
       .w_souls{
         margin: 0 5.5% 0 5.5%;
-        max-width: 1200px;
       }
 
       .w_charts{
